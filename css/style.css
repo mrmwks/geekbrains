@@ -1,0 +1,51 @@
+body {
+    background-color: #ffb6f9;
+}
+
+.main a {
+    color: lavenderblush;
+}
+
+.main a:link {
+    color: #00ffff;
+}
+
+.main a:hover {
+    color: #00cd24;
+}
+
+.main a:active {
+    color: fuchsia;
+}
+
+.main a:visited {
+    color: orangered;
+}
+
+.main li {
+    list-style-type: none;
+}
+
+.main ul {
+    padding-left: 0;
+}
+
+.first {
+    color: #fff900;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #000eea;
+}
+
+.second {
+    color: darkmagenta;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    background-color: chartreuse;
+    list-style-image: url("marker.png")
+}
+
+.third {
+    border: dotted 20px #00ffdc;
+}
