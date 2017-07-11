@@ -1,0 +1,70 @@
+div.mother {
+    border: solid black 1px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: both;
+}
+
+div.top_left{
+    position: relative;
+    background-color: #ffeb00;
+    border: 0 none;
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+div.top_right{
+    position: relative;
+    background-color: #000cff;
+    border: 0 none;
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+
+div.bottom_left{
+    position: relative;
+    background-color: #00eae0;
+    border: 0 none;
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+div.bottom_right{
+    position: relative;
+    background-color: #ff0700;
+    border: 0 none;
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+
+div.father{
+    margin-left: 240px;
+}
+
+div.grey {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+
+div.red {
+    background-color: red;
+    height: 140px;
+    width: 340px;
+    margin-outside: auto;
+}
+
+div.brother {
+    background-color: blue;
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    float: left;
+    clear: both;
+}
